@@ -33,17 +33,7 @@ public class Board {
     @Column(name="member_no")
     private Integer memberNo;
 
-    @Column(name="created_time")
-    private Date createdTime;
 
-    @Column(name = "updated_time")
-    private Date updatedTime;
-
-    @Column(name = "likes")
-    private Integer likes;
-
-    @Column(name = "counts")
-    private Integer counts;
 
 
 }
